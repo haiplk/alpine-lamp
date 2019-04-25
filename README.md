@@ -44,5 +44,4 @@ sudo chmod -Rf 755 /path/to/project
 If missing some lib for php please let me know or create a pull request
 
 ## Repos
-https://hub.docker.com/r/glats/alpine-lamp  
-https://github.com/glats/alpine-lamp
+https://cloud.docker.com/repository/docker/khanhhai/alpine-lamp
