@@ -31,8 +31,8 @@ RUN apk add mariadb mariadb-client \
     php7-tokenizer
 
 RUN curl -sS https://getcomposer.org/installer | \
-    php -- --install-dir=/usr/bin --filename=composer
-    sed -i 's#AllowOverride none#AllowOverride All#' /etc/apache2/httpd.conf && \
+    php -- --install-dir=/usr/bin --filename=composer && \
+    sed -i 's#AllowOverride none#AllowOverride All#' /etc/apache2/httpd.conf
 #    sed -i 's#Require all denied#Require all granted#' /etc/apache2/httpd.conf && \
 #    sed -i 's#^DocumentRoot ".*#DocumentRoot "/var/www/localhost/htdocs"#g' /etc/apache2/httpd.conf && \
 
