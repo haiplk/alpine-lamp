@@ -45,3 +45,4 @@ If missing some lib for php please let me know or create a pull request
 
 ## Repos
 https://hub.docker.com/r/khanhhai/alpine-lamp
+https://github.com/haiplk/alpine-lamp
